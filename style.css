@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+span,a{
+    display: inline-block;
+}
+body{
+    margin-top: 200px;
+    margin: auto;
+    transform: translateY(50%) translateX(50%);
+    background-color: black;
+}
+.h2{
+    font-size: 36px;
+    margin-top: 30px;
+    text-align: left;
+    font-family: fantasy;
+    font-weight: 100;
+    color: gold;
+}
+.com{
+    color: red;
+    margin-left: 10px;
+}
+.bttn{
+    font-size: 30px;
+    padding: 10px;
+    background-color: transparent;
+    color: floralwhite;
+    text-transform: capitalize;
+    transition: 0.3s all linear;
+    border-right: none;
+    border-bottom: none;
+    font-family: serif;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+.bttn:hover{
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    border-top: 4px solid rgb(255, 0, 0);
+    border-left: 4px solid rgb(255, 0, 0);
+}
+.result{
+    color: red;
+    margin-left: 10px;
+}
